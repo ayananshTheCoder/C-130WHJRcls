@@ -1,0 +1,40 @@
+<html>
+  <html>
+    <head>
+      <title>DJPory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+      
+     
+    </head>
+<body>
+<center class="col-log-12 col-md-12">
+  	<h1><label id="DJPort_Label">DJPort</label>
+	    <br>
+	    <span>RIGHT WRIST UP - INCREASE SPEED | LEFT WRIST UP - INCREASE VOLUME</span>
+  	</h3>
+    <div class="divSpeed">
+      <img src="output-onlinepngtools.png" width="250px">
+      <h3 class="speedDivLabel">SPEED: <span class="speedResult"></span></h3>
+    </div>
+    <div class="divVolume">
+      <img src="output-onlinepngtools.png" width="250">
+      <h3 class="VolumeDivLabel">VOLUME: <span class="volumeResult"></span></h3>
+    </div>
+	<br><br>
+  <button class="playSongBtn" onclick="playSong()">PLAY</button>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>

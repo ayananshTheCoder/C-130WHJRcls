@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+body
+{
+    background: rgb(255, 255, 217);
+}
+
+h1
+{
+    background-color: rgb(255, 255, 217);
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: Explora, cursive;
+    box-shadow: black -5px 5px 10px;
+}
+
+#DJPort_Label
+{
+    font-size: 95px;
+    color: black;
+}
+
+.divSpeed
+{
+    float: right;
+    margin-right: 10%;
+    text-align: center;
+    font-family: monospace;
+    color: black;
+}
+
+.divVolume
+{
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+    font-family: monospace;
+    color: black;
+}
+
+.playSongBtn
+{
+    width: 10%;
+    margin-top: 15%;
+    font-family: Impact;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+canvas
+{
+    width: fit-content;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
